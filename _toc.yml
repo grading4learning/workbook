@@ -1,0 +1,13 @@
+format: jb-book
+root: index
+chapters:
+- file: background/index
+  sections:
+  - file: background/learning
+  - file: background/equity
+- file: cases/index
+  sections:
+  - file: cases/programmingfords
+  # - file: victorias example
+- file: templates/index
+- file: reflection/index

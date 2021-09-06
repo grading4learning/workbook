@@ -1,5 +1,16 @@
 # Centering Learning and Equity in Assessment Workbook
 
-This workbook is designed for the Tapia 2021 Workshop facilitated by Sarah M Brown and Victoria Chávez.
+> This workbook is designed for the Tapia 2021 Workshop facilitated by Sarah M Brown and Victoria Chávez. If you did not attend the workshop, this workbook can still provide resources and guidance on equitable assessment!
 
-In this workshop, we will discuss assessment from the assignment level to the course level that aligns with learning and equity. We will first out key terms, show how assessment can encourage learning and support equity. Next, participants will practice applying the new terminology and theoretical grounding by studying examples.  Finally, participants will get to revise materials for their own courses.
+## Workshop Abstract
+In this workshop, we will discuss assessment from the assignment level to the course level that aligns with learning and equity. We will first outline key terms, show how assessment can encourage learning and support equity. Next, participants will practice applying the new terminology and theoretical grounding by studying examples.  Finally, participants will get to revise materials for their own courses.
+
+## Using the Workbook
+### For Workshop Attendees
+During the Workshop, we will guide you through several activities ([see our full agenda](https://grading4learning.github.io)) to modify your course(s) to better motivate and engage students via centering learning and equity in your courses’ assessment.
+
+### For Workshop Non-Attendees
+If you weren't able to attend the workshop, you can use our detailed activity information, case studies, and templates to revise your syllabus and/or assignments. 
+
+## Contributing to the Workbook
+Contributions are welcome! To submit revisions, additional case studies or templates, or resources, please [submit a pull request on Github](https://github.com/grading4learning/workbook/compare). 

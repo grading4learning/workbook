@@ -1,13 +1,15 @@
 # About
 
-> This workbook is designed for the Tapia 2021 Workshop facilitated by Sarah M Brown and Victoria Chávez. If you did not attend the workshop, this workbook can still provide resources and guidance on equitable assessment!
+> This workbook is designed for the [Tapia 2021 Workshop](https://grading4learning.github.io) facilitated by Sarah M Brown and Victoria Chávez. If you did not attend the workshop, this workbook can still provide resources and guidance on equitable assessment!
 
-## Workshop Abstract
+## Workshop Overview
 In this workshop, we will discuss assessment from the assignment level to the course level that aligns with learning and equity. We will first outline key terms, show how assessment can encourage learning and support equity. Next, participants will practice applying the new terminology and theoretical grounding by studying examples.  Finally, participants will get to revise materials for their own courses.
 
 ## Using the Workbook
+If you're familiar with Github, you can [fork this workbook's repo](https://github.com/grading4learning/workbook) to work through the case studies and templates. You can also copy-paste the prompts and examples onto your editor of choice or even print the pages to work offline (**workshop attendees**: please don't work offline during the workshop). 
+
 ### For Workshop Attendees
-During the Workshop, we will guide you through several activities ([see our full agenda](https://grading4learning.github.io)) to modify your course(s) to better motivate and engage students via centering learning and equity in your courses’ assessment.
+During the Workshop, we will guide you through several activities ([see our full agenda](https://grading4learning.github.io)) to modify your course(s) to better motivate and engage students via centering learning and equity in your courses’ assessment. **Please keep your work in an virtually-shareable format for the peer feedback portion of the workshop.**
 
 ### For Workshop Non-Attendees
 If you weren't able to attend the workshop, you can use our detailed activity information, case studies, and templates to revise your syllabus and/or assignments. 

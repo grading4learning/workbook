@@ -24,4 +24,4 @@ parts:
   - caption: Learn More
     chapters:
     - file: resources/faqs
-    - file: resources/helpful-links
+    - file: resources/resources

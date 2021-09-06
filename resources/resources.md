@@ -1,3 +1,3 @@
-# Helpful Links
+# Additional Resources
 
 <!-- Can also add books? -->

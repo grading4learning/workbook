@@ -16,7 +16,7 @@ Nope! When done correctly these can even minimize the amount you spend grading!
 
 ```{dropdown} Are these practices evidence-based?
 
-A lot of them are! For more info, check out our [helpful links page](../resources/helpful-links)
+A lot of them are! For more info, check out our [resources page](../resources/resources)
 ```
 
 ```{dropdown} How long does it take for students to understand and get used to alternative grading schemes?

@@ -1,4 +1,4 @@
-# Centering Learning and Equity in Assessment Workbook
+# About
 
 > This workbook is designed for the Tapia 2021 Workshop facilitated by Sarah M Brown and Victoria Chávez. If you did not attend the workshop, this workbook can still provide resources and guidance on equitable assessment!
 

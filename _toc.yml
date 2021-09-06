@@ -1,12 +1,12 @@
 format: jb-book
 root: index
 parts:
-  - caption: Background
+  - caption: Background Info
     chapters:
     - file: workshop/assessment
     - file: background/learning
     - file: background/equity
-  - caption: Practice
+  - caption: How Tos
     chapters:
     - file: practice/cases
     - file: practice/guided

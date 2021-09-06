@@ -3,25 +3,25 @@ root: index
 parts:
   - caption: Background Info
     chapters:
-    - file: workshop/assessment
+    - file: background/assessment
     - file: background/learning
     - file: background/equity
   - caption: How Tos
     chapters:
     - file: practice/cases
     - file: practice/guided
-    - file: practice/peerfeedback
+    - file: practice/peer-feedback
     - file: practice/reflection
   - caption: Case Studies
     chapters:
-    - file: cases/programmingfords
-    - file: cases/dsportfolio
+    - file: cases/programming-for-ds
+    - file: cases/ds-portfolio
     # - file: victorias example
   - caption: Templates
     chapters:
-    - file: templates/skillrubric
+    - file: templates/skill-rubric
     - file: templates/portfolio
   - caption: Learn More
     chapters:
     - file: resources/faqs
-    - file: resources/helpfullinks
+    - file: resources/helpful-links

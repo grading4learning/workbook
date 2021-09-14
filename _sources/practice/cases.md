@@ -1,8 +1,9 @@
-## Case Studies
+# Using Case Studies
 
-The Cases section contains examples of assignment and (the grading section of) syllabi that demonstrate the principles for grading that supports learning and equity.  
+The **Case Studies** section contains examples of assignments and (the grading section of) syllabi that demonstrate some principles for grading that support learning and equity.  
 
-In your group, discuss one assignment and one grading scheme.
+> Workshop Attendees: In your breakout group, take about 15 minutes to discuss one assignment and one grading scheme. 
+
 For each case study, answer the following questions:
 
 1. Which principle(s) are applied?

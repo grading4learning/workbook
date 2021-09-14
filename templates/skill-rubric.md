@@ -1,7 +1,7 @@
 # Syllabus: Skill Acquisition Rubric
 
 Building out this rubric is the first step in designing a competency-based
-grading scheme like Sarah's [Programming for Data Science](../cases/programmingfords)
+grading scheme like Sarah's [Programming for Data Science](../cases/programming-for-ds)
 
 
 ```{list-table}

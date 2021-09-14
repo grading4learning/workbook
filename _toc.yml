@@ -3,7 +3,7 @@ root: index
 parts:
   - caption: Background
     chapters:
-    - file: workshop/assessment
+    - file: background/assessment
     - file: background/learning
     - file: background/equity
   - caption: Practice

@@ -16,7 +16,8 @@ parts:
     chapters:
     - file: cases/programming-for-ds
     - file: cases/ds-portfolio
-    # - file: victorias example
+    - file: cases/web-dev
+    - file: cases/data-structs
   - caption: Templates
     chapters:
     - file: templates/skill-rubric

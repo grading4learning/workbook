@@ -1,4 +1,4 @@
-# About
+# About this Workbook
 
 > This workbook is designed for the [Tapia 2021 Workshop](https://grading4learning.github.io) facilitated by Sarah M Brown and Victoria Chávez. If you did not attend the workshop, this workbook can still provide resources and guidance on equitable assessment!
 

@@ -1,4 +1,4 @@
-# Introduction
+# Introducing alternative forms of assessment
 
 Assessment can have a big impact on our students. While students often view the work they do in class as a means to a grade, our goal as instructors is typically that the activities we ask them to do help
 them learn.  

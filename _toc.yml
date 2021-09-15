@@ -1,7 +1,7 @@
 format: jb-book
 root: index
 parts:
-  - caption: Background Info
+  - caption: 
     chapters:
     - file: background/intro
   - caption: How Tos

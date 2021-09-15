@@ -3,9 +3,7 @@ root: index
 parts:
   - caption: Background Info
     chapters:
-    - file: background/assessment
-    - file: background/learning
-    - file: background/equity
+    - file: background/intro
   - caption: How Tos
     chapters:
     - file: practice/cases

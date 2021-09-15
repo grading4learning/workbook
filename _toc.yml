@@ -18,6 +18,8 @@ parts:
     - file: cases/ds-portfolio
     - file: cases/web-dev
     - file: cases/data-structs
+    - file: cases/images-assgn
+    - file: cases/heaps-assgn
   - caption: Templates
     chapters:
     - file: templates/skill-rubric

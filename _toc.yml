@@ -19,7 +19,8 @@ parts:
     - file: cases/web-dev
     - file: cases/data-structs
     - file: cases/images-assgn
-    - file: cases/heaps-assgn
+    - file: cases/heaps-specs
+    - file: cases/heaps-comp
   - caption: Templates
     chapters:
     - file: templates/skill-rubric

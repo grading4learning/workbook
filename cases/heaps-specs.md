@@ -1,4 +1,4 @@
-# Assignment: Self-Balancing Trees-- Heaps
+# Assignment: Heaps using Specifications Grading
 
 **NOTE:** This is an abridged version of the lab handout, to see the full version, [please visit the course site](https://vcc-csc212.github.io/sm21/lab21/)
 

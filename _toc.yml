@@ -24,6 +24,7 @@ parts:
     chapters:
     - file: templates/skill-rubric
     - file: templates/portfolio
+    - file: templates/specs
   - caption: Learn More
     chapters:
     - file: resources/faqs

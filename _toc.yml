@@ -16,11 +16,12 @@ parts:
     chapters:
     - file: cases/programming-for-ds
     - file: cases/ds-portfolio
-    - file: cases/web-dev
-    - file: cases/data-structs
-    - file: cases/images-assgn
-    - file: cases/heaps-specs
+    - file: cases/data-structs-comp
     - file: cases/heaps-comp
+    - file: cases/data-structs-specs
+    - file: cases/heaps-specs
+    - file: cases/web-dev
+    - file: cases/images-assgn
   - caption: Templates
     chapters:
     - file: templates/skill-rubric

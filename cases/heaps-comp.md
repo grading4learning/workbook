@@ -1,6 +1,6 @@
 # Assignment: Heaps using Comptency-Based Grading
 
-**NOTE:** This is an abridged version of the lab handout, to see the full version, [please visit the course site](https://vcc-csc212.github.io/sp21-archive/lab11/)
+**NOTE:** This is an abridged version of the lab handout, to see the full version, [please visit the course site](https://vcc-csc212.github.io/sp21-archive/lab11/).
 
 #### Motivation (Why are we doing this?) {#motivation}
 The goal of this lab is to provide background on `Heaps`. 

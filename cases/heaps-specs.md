@@ -1,6 +1,6 @@
 # Assignment: Heaps using Specifications Grading
 
-**NOTE:** This is an abridged version of the lab handout, to see the full version, [please visit the course site](https://vcc-csc212.github.io/sm21/lab21/)
+**NOTE:** This is an abridged version of the lab handout, to see the full version, [please visit the course site](https://vcc-csc212.github.io/sm21/lab21/).
 
 ## Motivation (Why are we doing this?)
 This lab will help you solidify your understanding of self-balancing trees, in particular heaps. You'll also implement heapsort as a part of this lab.

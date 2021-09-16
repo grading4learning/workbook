@@ -29,3 +29,4 @@ parts:
     chapters:
     - file: resources/faqs
     - file: resources/resources
+    - file: resources/glossary

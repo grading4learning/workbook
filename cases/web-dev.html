@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Equitable Assessment &#8212; Centering Learning and Equity in Assessment Workbook</title>
+    <title>Scheme: Specifications Grading in Web Development &#8212; Centering Learning and Equity in Assessment Workbook</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,8 +51,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Using Case Studies" href="../practice/cases.html" />
-    <link rel="prev" title="Grading for Learning" href="learning.html" />
+    <link rel="next" title="Assignment: Image Processing and Optimization" href="images-assgn.html" />
+    <link rel="prev" title="Assignment: Heaps using Specifications Grading" href="heaps-specs.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -83,29 +83,14 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../index.html">
-   About
+   About this Workbook
   </a>
  </li>
 </ul>
-<p class="caption">
- <span class="caption-text">
-  Background Info
- </span>
-</p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="assessment.html">
-   Introduction
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="learning.html">
-   Grading for Learning
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Equitable Assessment
+  <a class="reference internal" href="../background/intro.html">
+   Introducing alternative forms of assessment
   </a>
  </li>
 </ul>
@@ -141,15 +126,45 @@
   Case Studies
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../cases/programming-for-ds.html">
+  <a class="reference internal" href="programming-for-ds.html">
    Scheme: Competency-Based Grading in Programming for Data Science
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../cases/ds-portfolio.html">
+  <a class="reference internal" href="ds-portfolio.html">
    Assignment: Data Science Portfolio
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data-structs-comp.html">
+   Scheme: Competency-Based Grading in Data Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="heaps-comp.html">
+   Assignment: Heaps using Comptency-Based Grading
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data-structs-specs.html">
+   Scheme: Specifications Grading in Data Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="heaps-specs.html">
+   Assignment: Heaps using Specifications Grading
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Scheme: Specifications Grading in Web Development
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="images-assgn.html">
+   Assignment: Image Processing and Optimization
   </a>
  </li>
 </ul>
@@ -167,6 +182,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../templates/portfolio.html">
    Assignment: Portfolio
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../templates/specs.html">
+   Assignment Outline for Specifications or Competency-Based Grading
   </a>
  </li>
 </ul>
@@ -227,7 +247,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/background/equity.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/cases/web-dev.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -247,10 +267,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/grading4learning/workbook/issues/new?title=Issue%20on%20page%20%2Fbackground/equity.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/grading4learning/workbook/issues/new?title=Issue%20on%20page%20%2Fcases/web-dev.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/grading4learning/workbook/edit/main/background/equity.md"><button
+        <a class="edit-button" href="https://github.com/grading4learning/workbook/edit/main/cases/web-dev.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -276,9 +296,26 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#key-features-of-equitable-assessment">
-   Key features of equitable assessment:
+  <a class="reference internal nav-link" href="#instructor-process">
+   Instructor Process
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#system-basics">
+   System basics
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#equity-and-learning-focus">
+   Equity and learning focus
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#other-applied-strategies-for-equity">
+     Other applied strategies for equity
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -291,14 +328,43 @@
         
               <div>
                 
-  <div class="section" id="equitable-assessment">
-<h1>Equitable Assessment<a class="headerlink" href="#equitable-assessment" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="key-features-of-equitable-assessment">
-<h2>Key features of equitable assessment:<a class="headerlink" href="#key-features-of-equitable-assessment" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="scheme-specifications-grading-in-web-development">
+<h1>Scheme: Specifications Grading in Web Development<a class="headerlink" href="#scheme-specifications-grading-in-web-development" title="Permalink to this headline">¶</a></h1>
+<p>Syllabi:</p>
 <ul class="simple">
-<li></li>
-<li></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1GvA2ZvHqe62li6Kvqht64WUBaEFbVsteZb11eJgRWz0/edit?usp=sharing">Web Design and Programming Syllabus</a> (i.e., front-end web dev)</p></li>
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1vbTrEGhCnJUStXg0ToGO868MXcrO8bw0iOh8CRzfObw/edit?usp=sharing">Dynamic Web Design and Programming Syllabus</a> (i.e., back-end and full-stack web dev)</p></li>
 </ul>
+<p>These courses use a specifications grading scheme and assesses assignments on complete/incomplete basis.</p>
+<div class="section" id="instructor-process">
+<h2>Instructor Process<a class="headerlink" href="#instructor-process" title="Permalink to this headline">¶</a></h2>
+<p>I used a backwards-design to design assignments and outlined all the requirements necessary to complete each assignment. Each assignment was evaluated as either complet or incomplete and the only way to complete any given assignment was by meeting ALL requirements. Final course grades were based on the percentage of completed assignments, with a minimum of 60% being required to pass with a D.</p>
+</div>
+<div class="section" id="system-basics">
+<h2>System basics<a class="headerlink" href="#system-basics" title="Permalink to this headline">¶</a></h2>
+<p>Students had to meet all the requirements of:</p>
+<ul class="simple">
+<li><p>90% or more assignments to earn an A</p></li>
+<li><p>80% or more assignments to earn a B</p></li>
+<li><p>70% or more assignments to earn a C</p></li>
+<li><p>60% or more assignments to earn a D</p></li>
+</ul>
+<p>Completing and submitting a final project was also a required part of passing the course. Final projects didn’t count towards a student’s final grade, though an exemplar final project could earn a student a + designation (i.e., a B+ instead of a B). There was an additional opportunity to gain a + designation described in the syllabus, as well as a way to earn a “freebie” (replace a mising or incomplete assignment).</p>
+</div>
+<div class="section" id="equity-and-learning-focus">
+<h2>Equity and learning focus<a class="headerlink" href="#equity-and-learning-focus" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Final course grades were not based on averaging performance across assignments meaning students could have bad weeks that wouldn’t hurt their final grade.</p></li>
+<li><p>Students had the agency to choose which and how many assignments to complete.</p></li>
+</ul>
+<div class="section" id="other-applied-strategies-for-equity">
+<h3>Other applied strategies for equity<a class="headerlink" href="#other-applied-strategies-for-equity" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Assignment resubmissions were allowed and encouraged throughout the semester. Some topics take longer than others to click, sometimes students have only a limited amount of time to devote to an assignment but can return to it later.</p></li>
+<li><p>Soft deadlines and hard deadlines allowed students to self-pace while having an outline of where they should be at with their assignment completion.</p></li>
+<li><p>Open-ended final projects to allow students to apply course topics to their own interests.</p></li>
+</ul>
+</div>
 </div>
 </div>
 
@@ -315,7 +381,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./background"
+            path: "./cases"
         },
         predefinedOutput: true
     }
@@ -332,19 +398,19 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="learning.html" title="previous page">
+        <a class="left-prev" href="heaps-specs.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Grading for Learning</p>
+                <p class="prevnext-title">Assignment: Heaps using Specifications Grading</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="../practice/cases.html" title="next page">
+        <a class="right-next" href="images-assgn.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Using Case Studies</p>
+                <p class="prevnext-title">Assignment: Image Processing and Optimization</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>

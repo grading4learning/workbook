@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment: Data Science Portfolio &#8212; Centering Learning and Equity in Assessment Workbook</title>
+    <title>Assignment: Heaps using Specifications Grading &#8212; Centering Learning and Equity in Assessment Workbook</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,8 +51,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Scheme: Competency-Based Grading in Data Structures" href="data-structs-comp.html" />
-    <link rel="prev" title="Scheme: Competency-Based Grading in Programming for Data Science" href="programming-for-ds.html" />
+    <link rel="next" title="Scheme: Specifications Grading in Web Development" href="web-dev.html" />
+    <link rel="prev" title="Scheme: Specifications Grading in Data Structures" href="data-structs-specs.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -132,8 +132,8 @@
    Scheme: Competency-Based Grading in Programming for Data Science
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="ds-portfolio.html">
    Assignment: Data Science Portfolio
   </a>
  </li>
@@ -152,8 +152,8 @@
    Scheme: Specifications Grading in Data Structures
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="heaps-specs.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Assignment: Heaps using Specifications Grading
   </a>
  </li>
@@ -247,7 +247,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/cases/ds-portfolio.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/cases/heaps-specs.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -267,10 +267,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/grading4learning/workbook/issues/new?title=Issue%20on%20page%20%2Fcases/ds-portfolio.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/grading4learning/workbook/issues/new?title=Issue%20on%20page%20%2Fcases/heaps-specs.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/grading4learning/workbook/edit/main/cases/ds-portfolio.md"><button
+        <a class="edit-button" href="https://github.com/grading4learning/workbook/edit/main/cases/heaps-specs.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -296,41 +296,34 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#submissions">
-   Submissions
+  <a class="reference internal nav-link" href="#motivation-why-are-we-doing-this">
+   Motivation (Why are we doing this?)
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#prompts">
-   Prompts
+  <a class="reference internal nav-link" href="#background-info">
+   Background Info
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#overall">
-     Overall
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#correct-an-assignment">
-     Correct an Assignment
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#deeper-analysis">
-     Deeper Analysis
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#new-analysis">
-     New Analysis
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#cheatsheet">
-     CheatSheet
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#your-task">
+   Your Task
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#requirements">
+   Requirements
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#handing-in">
+   Handing in
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#grade-breakdown">
+   Grade Breakdown
+  </a>
  </li>
 </ul>
 
@@ -343,41 +336,105 @@
         
               <div>
                 
-  <div class="section" id="assignment-data-science-portfolio">
-<h1>Assignment: Data Science Portfolio<a class="headerlink" href="#assignment-data-science-portfolio" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://rhodyprog4ds.github.io/BrownFall20/portfolio/">live site</a></p>
-<div class="section" id="submissions">
-<h2>Submissions<a class="headerlink" href="#submissions" title="Permalink to this headline">¶</a></h2>
-<p>Students submitted their portfolio as a jupyter book via GitHub classroom.  They added more to the same repository over the course of the semester.</p>
+  <div class="section" id="assignment-heaps-using-specifications-grading">
+<h1>Assignment: Heaps using Specifications Grading<a class="headerlink" href="#assignment-heaps-using-specifications-grading" title="Permalink to this headline">¶</a></h1>
+<p><strong>NOTE:</strong> This is an abridged version of the lab handout, to see the full version, <a class="reference external" href="https://vcc-csc212.github.io/sm21/lab21/">please visit the course site</a>.</p>
+<div class="section" id="motivation-why-are-we-doing-this">
+<h2>Motivation (Why are we doing this?)<a class="headerlink" href="#motivation-why-are-we-doing-this" title="Permalink to this headline">¶</a></h2>
+<p>This lab will help you solidify your understanding of self-balancing trees, in particular heaps. You’ll also implement heapsort as a part of this lab.</p>
 </div>
-<div class="section" id="prompts">
-<h2>Prompts<a class="headerlink" href="#prompts" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="overall">
-<h3>Overall<a class="headerlink" href="#overall" title="Permalink to this headline">¶</a></h3>
-<p>The prompts provide a starting point, but remember that to earn achievements, you’ll be evaluated by the rubric. You can see the full rubric for all portfolios in the syllabus. Your portfolio is also an opportunity to be creative, explore things, and answer your own questions that we haven’t answered in class to dig deeper on the topics we’re covering. Use the feedback you get on assignments to inspire your portfolio.</p>
-<p>Each submission should include an introduction and a number of ‘chapters’. The grade will be based on both that you demonstrate skills through your chapters that are inspired by the prompts and that your summary demonstrates that you know you learned the skills. See the formatting tips for advice on how to structure files.</p>
+<hr class="docutils" />
+<div class="section" id="background-info">
+<h2>Background Info<a class="headerlink" href="#background-info" title="Permalink to this headline">¶</a></h2>
+<p>Please <a class="reference external" href="https://vcc-csc212.github.io/sm21/lab21/">see full lab handout</a> for this section.</p>
 </div>
-<div class="section" id="correct-an-assignment">
-<h3>Correct an Assignment<a class="headerlink" href="#correct-an-assignment" title="Permalink to this headline">¶</a></h3>
-<p>Choose an assignment that you did not achieve the target level for. Write a blog style notebook analysis that corrects what you could have done better, what you learned, and addresses the misconception if applicable.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>To get credit for this, student had to not only correct, but truly reflect and explain.</p>
+<hr class="docutils" />
+<div class="section" id="your-task">
+<h2>Your Task<a class="headerlink" href="#your-task" title="Permalink to this headline">¶</a></h2>
+<p><strong>NOTE:</strong> Please <a class="reference external" href="https://vcc-csc212.github.io/sm21/lab21/">see full lab handout</a> for file downloads.</p>
+<p>Complete the implementation of a MIN heap. Pay attention to the <strong>hints in the code (CPP AND H FILES)</strong>.</p>
+<ol>
+<li><p>Download the files below (it’s easiest if you right click and then choose download or save)</p>
+<p>heap.h
+: Contains the <strong>declaration</strong> of the lab you’ll be implementing. <strong>Do not</strong> alter any of the given function signatures.</p>
+<p>heap.cpp
+: Contains the <strong>definition</strong> of the lab you’ll be implementing.</p>
+<p>test.cpp
+: EMPTY TEST FILE (with a template for you to follow). <strong>You should add your own test cases to this file</strong>.</p>
+<p>doctest.h
+: The library we’ll be using for our own automated tester. There’s a ton of code in here so don’t worry too much about understanding everything it does– just know the library is extremely powerful and we’ll only be scratching the surface of everything it can do. <strong>Do not edit this file</strong>.</p>
+</li>
+<li><p>Once you have downloaded all the files, inspect them. Ask questions if you have them.</p></li>
+<li><p>Create your own makefile to compile and run your program.</p></li>
+<li><p>As you hopefully noticed, a lot of these functions are familiar. Use your Lab 20 implementation to complete the following functions:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">height</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">preorder</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">inorder</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">postorder</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">destroy</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">isFull</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">isComplete</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">size</span></code></p></li>
+</ul>
+</li>
+<li><p>Complete the implementation of <code class="docutils literal notranslate"><span class="pre">min_heapify</span></code>. Pay attention to the <strong>comments and hints in the code</strong>. Refer to the course material (slides, readings, and background info above) as needed.</p>
+<ul class="simple">
+<li><p>This is a MIN heap so all children must be larger than their parents</p></li>
+</ul>
+</li>
+<li><p>Complete the implementation of <code class="docutils literal notranslate"><span class="pre">insert</span></code>. Pay attention to the <strong>comments and hints in the code</strong>. Refer to the course material (slides, readings, and background info above) as needed.</p>
+<ul class="simple">
+<li><p>This is a MIN heap so all children must be larger than their parents</p></li>
+</ul>
+</li>
+<li><p>Add your own test cases for the functions you just completed. Run, compile, and test your program by running <code class="docutils literal notranslate"><span class="pre">make</span></code> in your terminal, while in the directory all these files are located in. Debug as needed.</p></li>
+<li><p>Complete the implementation of <code class="docutils literal notranslate"><span class="pre">find_last</span></code>. Pay attention to the <strong>comments and hints in the code</strong>. Refer to the course material (slides, readings, and background info above) as needed.</p></li>
+<li><p>Add your own test cases for the function you just completed. Run, compile, and test your program by running <code class="docutils literal notranslate"><span class="pre">make</span></code> in your terminal, while in the directory all these files are located in. Debug as needed.</p></li>
+<li><p>Complete the implementation of <code class="docutils literal notranslate"><span class="pre">remove_min</span></code>. Pay attention to the <strong>comments and hints in the code</strong>. Refer to the course material (slides, readings, and background info above) as needed.</p></li>
+<li><p>Add your own test cases for the function you just completed. Run, compile, and test your program by running <code class="docutils literal notranslate"><span class="pre">make</span></code> in your terminal, while in the directory all these files are located in. Debug as needed.</p></li>
+<li><p>Complete the implementation of <code class="docutils literal notranslate"><span class="pre">delete_element</span></code>. Pay attention to the <strong>comments and hints in the code</strong>. Refer to the course material (slides, readings, and background info above) as needed.</p></li>
+<li><p>Add your own test cases for the function you just completed. Run, compile, and test your program by running <code class="docutils literal notranslate"><span class="pre">make</span></code> in your terminal, while in the directory all these files are located in. Debug as needed.</p></li>
+<li><p>Complete the implementation of <code class="docutils literal notranslate"><span class="pre">search</span></code>. Pay attention to the <strong>comments and hints in the code</strong>. Refer to the course material (slides, readings, and background info above) as needed.</p></li>
+</ol>
+<ul class="simple">
+<li><p><strong>HINT:</strong> This will look more like the search from Lab 19 than the one from Lab 20.</p></li>
+</ul>
+<ol class="simple">
+<li><p>Add your own test cases for the function you just completed. Run, compile, and test your program by running <code class="docutils literal notranslate"><span class="pre">make</span></code> in your terminal, while in the directory all these files are located in. Debug as needed.</p></li>
+<li><p>Add a public <strong>void</strong> function, <code class="docutils literal notranslate"><span class="pre">heapsort</span></code>, to your H and CPP files. The function should take in an array of integers and an integer representing the size of the array.</p></li>
+<li><p>Complete the implementation of <code class="docutils literal notranslate"><span class="pre">heapsort</span></code>.</p></li>
+</ol>
+<ul class="simple">
+<li><p>Build a heap from the numbers in the array passed in and then rewrite the contents of the array so they’re in sorted order</p></li>
+</ul>
+<ol class="simple">
+<li><p>Add your own test cases for the function you just completed. Run, compile, and test your program by running <code class="docutils literal notranslate"><span class="pre">make</span></code> in your terminal, while in the directory all these files are located in. Debug as needed.</p></li>
+</ol>
 </div>
+<hr class="docutils" />
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<p>Your goal for this lab is to complete the following tasks <strong>in order</strong>:</p>
+<ol class="simple">
+<li><p>All heap functions behave as expected for a min heap</p></li>
+<li><p>Heapsort function behaves as expected</p></li>
+</ol>
 </div>
-<div class="section" id="deeper-analysis">
-<h3>Deeper Analysis<a class="headerlink" href="#deeper-analysis" title="Permalink to this headline">¶</a></h3>
-<p>For one of the assignments, if there was something you were curious about. Try it out and investigate how to answer it. Vary parameters and document your investigation.</p>
+<hr class="docutils" />
+<div class="section" id="handing-in">
+<h2>Handing in<a class="headerlink" href="#handing-in" title="Permalink to this headline">¶</a></h2>
+<p>To submit your solution to Gradescope, select <strong>all of the following files</strong> and use the <em>drag and drop</em> option:</p>
+<ul class="simple">
+<li><p>heap.h</p></li>
+<li><p>heap.cpp</p></li>
+<li><p>test.cpp</p></li>
+</ul>
 </div>
-<div class="section" id="new-analysis">
-<h3>New Analysis<a class="headerlink" href="#new-analysis" title="Permalink to this headline">¶</a></h3>
-<p>For  a topic of interest, clean, explore and model the data. Work with messy data or data provided in multiple files to earn prepare and construct achievements or use clean data to earn only EDA and modeling achievements.</p>
-</div>
-<div class="section" id="cheatsheet">
-<h3>CheatSheet<a class="headerlink" href="#cheatsheet" title="Permalink to this headline">¶</a></h3>
-<p>Make a cheatsheet with examples of the several different parameter settings for common operations for one topic.</p>
-<p>This cheatsheet is an example, it’s too broad, but it’s the same idea. Yours should cover one topic in greater detail and demonstrate your skill according to the rubric.</p>
-</div>
+<hr class="docutils" />
+<div class="section" id="grade-breakdown">
+<h2>Grade Breakdown<a class="headerlink" href="#grade-breakdown" title="Permalink to this headline">¶</a></h2>
+<p>You must successfully meet requirements <strong>1-2</strong> in order to receive credit for this assignment.</p>
 </div>
 </div>
 
@@ -411,19 +468,19 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="programming-for-ds.html" title="previous page">
+        <a class="left-prev" href="data-structs-specs.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Scheme: Competency-Based Grading in Programming for Data Science</p>
+                <p class="prevnext-title">Scheme: Specifications Grading in Data Structures</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="data-structs-comp.html" title="next page">
+        <a class="right-next" href="web-dev.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Scheme: Competency-Based Grading in Data Structures</p>
+                <p class="prevnext-title">Scheme: Specifications Grading in Web Development</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>

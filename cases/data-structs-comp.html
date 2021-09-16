@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introduction &#8212; Centering Learning and Equity in Assessment Workbook</title>
+    <title>Scheme: Competency-Based Grading in Data Structures &#8212; Centering Learning and Equity in Assessment Workbook</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -51,8 +51,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Grading for Learning" href="learning.html" />
-    <link rel="prev" title="About" href="../index.html" />
+    <link rel="next" title="Assignment: Heaps using Comptency-Based Grading" href="heaps-comp.html" />
+    <link rel="prev" title="Assignment: Data Science Portfolio" href="ds-portfolio.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -83,29 +83,14 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../index.html">
-   About
+   About this Workbook
   </a>
  </li>
 </ul>
-<p class="caption">
- <span class="caption-text">
-  Background Info
- </span>
-</p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Introduction
-  </a>
- </li>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="learning.html">
-   Grading for Learning
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="equity.html">
-   Equitable Assessment
+  <a class="reference internal" href="../background/intro.html">
+   Introducing alternative forms of assessment
   </a>
  </li>
 </ul>
@@ -141,15 +126,45 @@
   Case Studies
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../cases/programming-for-ds.html">
+  <a class="reference internal" href="programming-for-ds.html">
    Scheme: Competency-Based Grading in Programming for Data Science
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../cases/ds-portfolio.html">
+  <a class="reference internal" href="ds-portfolio.html">
    Assignment: Data Science Portfolio
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Scheme: Competency-Based Grading in Data Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="heaps-comp.html">
+   Assignment: Heaps using Comptency-Based Grading
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data-structs-specs.html">
+   Scheme: Specifications Grading in Data Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="heaps-specs.html">
+   Assignment: Heaps using Specifications Grading
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="web-dev.html">
+   Scheme: Specifications Grading in Web Development
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="images-assgn.html">
+   Assignment: Image Processing and Optimization
   </a>
  </li>
 </ul>
@@ -167,6 +182,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../templates/portfolio.html">
    Assignment: Portfolio
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../templates/specs.html">
+   Assignment Outline for Specifications or Competency-Based Grading
   </a>
  </li>
 </ul>
@@ -227,7 +247,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/background/assessment.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/cases/data-structs-comp.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -247,10 +267,10 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/grading4learning/workbook/issues/new?title=Issue%20on%20page%20%2Fbackground/assessment.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/grading4learning/workbook/issues/new?title=Issue%20on%20page%20%2Fcases/data-structs-comp.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/grading4learning/workbook/edit/main/background/assessment.md"><button
+        <a class="edit-button" href="https://github.com/grading4learning/workbook/edit/main/cases/data-structs-comp.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -270,6 +290,36 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#instructor-process">
+   Instructor Process
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#system-basics">
+   System basics
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#equity-and-learning-focus">
+   Equity and learning focus
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#other-applied-strategies-for-equity">
+     Other applied strategies for equity
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -278,46 +328,33 @@
         
               <div>
                 
-  <div class="section" id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
-<p>Assessment can have a big impact on our students.</p>
-<!-- something like Anna's first intro slide -->
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You&#39;re not grading assignments. <br><br>You&#39;re collecting evidence to determine student progress and pointing them towards their next steps.<br><br>Make the mental switch. It matters.</p>&mdash; Tyler Rablin (@Mr_Rablin) <a href="https://twitter.com/Mr_Rablin/status/1307518756344659973?ref_src=twsrc%5Etfw">September 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<!-- blurbs from atl chat that may be helpful 
-
-- They seem to make students approach assignments as a formula rather than a learning experience.
-- We use rubrics but even with them I find nuance difficult to convey
-- My goal is to provide valuable feedback without it consuming my life.
-- I believe in a lot of no risk writing and homework assignments, and give students opportunities to revise and rewrite graded work for a new grade after discussion and feedback with me.
--  I would love for learning in my classes to come more from intrinsic motivation, so finding a way to change the grading system in that direction (if possible!)
-- I want to give students opportunities to try multiple times, to learn and revise, without the  grading being too onerous for me.
--  I want to shift student’s goal of getting a good grade to learning to their potential. How can we address grading so that it isn’t the focal point of the goal.
-- My students experience me taking too long to mark their work—I want to speed it up, so my feedback arrives in a timely fashion and is more useful to them.
-- Want to find out about new ways students can learn from my grading efforts.
-- I am interested in providing valuable feedback to students without a whole lot of additional time spent on grading, especially since I teach large classes. I also find it very problematic to put students in the particular boxes as conventional grading schemes seem to do. Not everyone starts at the same point, and I’d like to grade the improvement, rather than levels!
-- I find that numerous grade-points (which help soften the importance of each individual evaluation) tends to flatten “the curve” making it harder to get, for example, a solid A which ambitious students are “trained” to pursue at all costs.
-- Strategies like minimal marking create more equitable working conditions for faculty, particularly PTF, in our program. Better, more equitable working conditions are directly correlated to better learning conditions for our students.
-- students learn in different ways and have different strengths. They should be able to show they have met the objectives through different means that work with their strengths . A student may not do well with taking tests, but is competent with the material and could show that in other ways.
-- grading could be equitable if faculty could keep in mind different students learning styles and background knowledge. give students with less background more chances to improve.
--  A pro of the rubric system is that I spend approx the same time/effort reviewing each student’s work so that is equitable from a faculty-to-student contact standpoint
-- “grading” needs to be aligned as closely as possible with our goals for equitable learning.  Changing our goals without changing some of our highest-impact practices makes little sense.
-- But that we need to find a way to integrate the two since grades are a current requirement of the larger educational system
-- Students who come from backgrounds where they have received less support or training in basic writing skills, for example, are automatically at a disadvantage when it comes to traditional grading in college. Then this compounds, as they receive poor grades, their self-esteem lowers, they cannot get the same opportunities as students with higher grades, and this exacerbates equity concerns
--  Need to be very careful about what I think of as common knowledge and how it is incorporated into content and assessment. 
-- I think giving honest feedback helps everyone achieve.
-- grading is a major teaching tool as well as assessment.  All should benefit if exams are constructed correctly.
-- let’s students understand their progress
-- Grading can be reflective of what we've actually been able to cover
-- Retention of material and putting the time in 
-- Need to giver reasonable feedback
-- Having broad, flexible, and transparent grading practices allows for a range of learning styles, while still allowing a fair assessment of learning goals.
-- Equitable teaching to me means that I am working with students both individually and as a group. I hope that I can grade on the growth of the student rather than compliance behaviors.
-- students learn in different ways and vary greatly in their experience and comfort level with the various modes of assessment. If we are able to achieve equitable learning outcomes through revision of our assessment tools - that would be equitable for all students.
-- Creating solid procedural justice so that you can grade with minimum bias. So hard to achieve that transparacy
-- Grading sometimes reflects what students are already able to do as opposed to what they are actually learning: reinforces the differences students are already coming in with
-
-
--->
+  <div class="section" id="scheme-competency-based-grading-in-data-structures">
+<h1>Scheme: Competency-Based Grading in Data Structures<a class="headerlink" href="#scheme-competency-based-grading-in-data-structures" title="Permalink to this headline">¶</a></h1>
+<p>This course example uses a competency-based grading scheme and assesses assignments on specification against an assignment rubric. Please visit the <a class="reference external" href="https://vcc-csc212.github.io/sp21-archive/grading/">Spring 2021 course site</a> for more detailed information.</p>
+<div class="section" id="instructor-process">
+<h2>Instructor Process<a class="headerlink" href="#instructor-process" title="Permalink to this headline">¶</a></h2>
+<p>The course covers a very large number of topics over a 13 week period, several of which previous instructors didn’t get to as students fell behind throughout the semester. I decided to pick the most important topics and classified them as non-negotiables– these were topics a student shouldn’t leave a data structures and algo course without understanding. I chose to have 4 levels of knowledge, of which the highest required a self-directed final project to demonstrate. I categorized the original assignment requirements into the three levels of knowledge left, and that became that assignment’s rubric.</p>
+<p>A concrete example using writing: Say the learning objective of the assignment is to write a paragraph. To reach awareness, a student would have to write between 3-5 sentences total. To reach this level of knowledge (awareness) students don’t have to worry too much about the sentences flowing well and being related, they just have to meet the bare minimum of length. To demonstrate understanding, the 3-5 sentences must be on the same topic, and lastly, to demonstrate competency, students would have to write 3-5 sentences about the same topic, that flow well together, and form a unified single idea.</p>
+</div>
+<div class="section" id="system-basics">
+<h2>System basics<a class="headerlink" href="#system-basics" title="Permalink to this headline">¶</a></h2>
+<p>Almost each grade band (A, B, and C) had two options/avenues to be earned (D only had one path). One of the options offered more flexibility for missing or incomplete assingments, the other did not. Final projects were an optional way to demonstrate knowledge to give students who missed any assignments an additional opportunity to boost their grade. Completing and submitting a final project was also required to earn an A in the course. There was also an opportunity to gain a + designation described in the syllabus (i.e., to get a B+ instead of a B).</p>
+</div>
+<div class="section" id="equity-and-learning-focus">
+<h2>Equity and learning focus<a class="headerlink" href="#equity-and-learning-focus" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Final course grades were not based on averaging performance across assignments meaning students could have bad weeks that wouldn’t hurt their final grade.</p></li>
+<li><p>Students had multiple opportunities to demonstrate their knowledge in any given topic area.</p></li>
+</ul>
+<div class="section" id="other-applied-strategies-for-equity">
+<h3>Other applied strategies for equity<a class="headerlink" href="#other-applied-strategies-for-equity" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Assignment resubmissions were allowed and encouraged throughout the semester. Some topics take longer than others to click, sometimes students have only a limited amount of time to devote to an assignment but can return to it later.</p></li>
+<li><p>Soft deadlines and hard deadlines allowed students to self-pace while having an outline of where they should be at with their assignment completion.</p></li>
+<li><p>Open-ended final projects to allow students to apply course topics to their own interests.</p></li>
+</ul>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -333,7 +370,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./background"
+            path: "./cases"
         },
         predefinedOutput: true
     }
@@ -350,19 +387,19 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="../index.html" title="previous page">
+        <a class="left-prev" href="ds-portfolio.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">About</p>
+                <p class="prevnext-title">Assignment: Data Science Portfolio</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="learning.html" title="next page">
+        <a class="right-next" href="heaps-comp.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Grading for Learning</p>
+                <p class="prevnext-title">Assignment: Heaps using Comptency-Based Grading</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>

@@ -2,9 +2,10 @@
 
 [live site](https://rhodyprog4ds.github.io/BrownFall20/portfolio/)
 
-## Submissions
+```{note}
 
-Students submitted their portfolio as a jupyter book via GitHub classroom.  They added more to the same repository over the course of the semester.  
+Students submitted their portfolio as a jupyter book via GitHub classroom.  They added more content to the same repository over the course of the semester.  
+```
 
 ## Prompts
 

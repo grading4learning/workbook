@@ -9,8 +9,8 @@ direct their attention to their own learning.
 <!-- something like Anna's first intro slide -->
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">You&#39;re not grading assignments. <br><br>You&#39;re collecting evidence to determine student progress and pointing them towards their next steps.<br><br>Make the mental switch. It matters.</p>&mdash; Tyler Rablin (@Mr_Rablin) <a href="https://twitter.com/Mr_Rablin/status/1307518756344659973?ref_src=twsrc%5Etfw">September 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
- 
-<!-- blurbs from atl chat that may be helpful 
+
+<!-- blurbs from atl chat that may be helpful
 
 - They seem to make students approach assignments as a formula rather than a learning experience.
 - We use rubrics but even with them I find nuance difficult to convey
@@ -30,12 +30,12 @@ direct their attention to their own learning.
 - “grading” needs to be aligned as closely as possible with our goals for equitable learning.  Changing our goals without changing some of our highest-impact practices makes little sense.
 - But that we need to find a way to integrate the two since grades are a current requirement of the larger educational system
 - Students who come from backgrounds where they have received less support or training in basic writing skills, for example, are automatically at a disadvantage when it comes to traditional grading in college. Then this compounds, as they receive poor grades, their self-esteem lowers, they cannot get the same opportunities as students with higher grades, and this exacerbates equity concerns
--  Need to be very careful about what I think of as common knowledge and how it is incorporated into content and assessment. 
+-  Need to be very careful about what I think of as common knowledge and how it is incorporated into content and assessment.
 - I think giving honest feedback helps everyone achieve.
 - grading is a major teaching tool as well as assessment.  All should benefit if exams are constructed correctly.
 - let’s students understand their progress
 - Grading can be reflective of what we've actually been able to cover
-- Retention of material and putting the time in 
+- Retention of material and putting the time in
 - Need to giver reasonable feedback
 - Having broad, flexible, and transparent grading practices allows for a range of learning styles, while still allowing a fair assessment of learning goals.
 - Equitable teaching to me means that I am working with students both individually and as a group. I hope that I can grade on the growth of the student rather than compliance behaviors.
@@ -45,3 +45,10 @@ direct their attention to their own learning.
 
 
 -->
+
+
+## Key features of Equitable, learning focused assessment
+
+- explicit expectations
+- multiple attempts, to mirror learning process
+- agency for students

@@ -6,8 +6,8 @@ The **Case Studies** section contains examples of assignments and (the grading s
 
 For each case study, answer the following questions:
 
-1. Which principle(s) are applied?
-1. How is the principle you identified applied?
+1. Which features(s) are applied?
+1. How are those features you identified applied?
 1. What do you like about this case?
 1. What would you want to change?
 1. What questions do you have about case study?

@@ -27,6 +27,11 @@ An incredibly brief summary of what our goals are:
 - Agency for students
 
 ### Getting started
+
+```{note}
+If you're joining live in the workshop, we'll guide you through these steps
+```
+
 To get started, we recommend you:
 - Check out the [glossary](../resources/glossary) which contains terms frequently used throughout the workbook
 - Complete the how-tos **in order**, that is:

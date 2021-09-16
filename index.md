@@ -1,6 +1,6 @@
 # About this Workbook
 
-> This workbook is designed for the [Tapia 2021 Workshop](https://grading4learning.github.io) facilitated by Sarah M Brown and Victoria Chávez. If you did not attend the workshop, this workbook can still provide resources and guidance on equitable assessment!
+> This workbook is designed for the [Tapia 2021 "Centering Learning and Equity in Assessment" Workshop](https://grading4learning.github.io) facilitated by Sarah M Brown and Victoria Chávez. If you did not attend the workshop, this workbook can still provide resources and guidance on equitable assessment!
 
 If you prefer, [download a pdf](https://grading4learning.github.io/workbook/workbook.pdf)
 
@@ -18,3 +18,8 @@ If you weren't able to attend the workshop, you can use our detailed activity in
 
 ## Contributing to the Workbook
 Contributions are welcome! To submit revisions, additional case studies or templates, or resources, please [submit a pull request on Github](https://github.com/grading4learning/workbook/compare).
+
+## Joining the Community
+Join our new and growing [community on Slack](https://join.slack.com/t/cle-community/shared_invite/zt-w11ht1dt-jz_aiHKGPlPPYoftnuxXcw)! 
+- Haven't used Slack? [Check out the start guide](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide?utm_source=hppromo&utm_medium=promo).
+- Slack join link not working? Slack invite links expire every 30 days and we may have forgotten to update it so please [let us know](https://github.com/grading4learning/workbook/issues)!

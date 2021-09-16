@@ -2,6 +2,14 @@
 
 **Note:** Resources will get continually added so make sure to check back often and let us know if you have any to share!
 
+## Websites
+- [Grading for equity](https://gradingforequity.org/) (also a book)
+- [Google Drive with additional resources](http://bit.ly/resources-teaching)
+
+## Course examples / Additional case studies
+- [Intro stats with medals](https://kmkinnaird.github.io/SDS220-fall2021/grading.html) This course defines statistics medals for content knowledge and habit medals for professional development.  Students grades are computed by earning statistics medals in knowledge checks (exam-like assessments) and habit medals from problem sets and other habits.
+- [Sample non-traditional assignments](http://bit.ly/alt-assess) that center learning
+
 ## Books
 - [**Ungrading:** Why Rating Students Undermines Learning (and What to Do Instead) Susan Blum](https://wvupressonline.com/ungrading)
 - Feldman, Joe. (2019). Grading for Equity: What It Is, Why It Matters, and How It Can Transform Schools and Classroom. Thousand Oaks, CA: Sage Publishing.
@@ -14,8 +22,3 @@
 - Reeves, D. (2008). Leading to Change / Effective Grading Practices. Educational
 Leadership 65:5
 
-## Websites
-- [Grading for equity](https://gradingforequity.org/) (also a book)
-
-## Course examples / Additional case studies
-- [Intro stats with medals](https://kmkinnaird.github.io/SDS220-fall2021/grading.html) This course defines statistics medals for content knowledge and habit medals for professional development.  Students grades are computed by earning statistics medals in knowledge checks (exam-like assessments) and habit medals from problem sets and other habits.

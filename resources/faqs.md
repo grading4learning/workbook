@@ -47,12 +47,12 @@ Someone suggested using Google Doc peer-review rubrics: students make a copy of 
 
 ```{dropdown} How can I apply these principles while using automated grading?
 
-It depends on which principles you're interested in applying but generally speaking, you'll most likely have to rethink each assignment's grade breakdown and the way that's displayed/communicated to students. [Victoria's data structures course](../cases/data-structs) utilized an automated grader with a competency-based grading scheme.
+It depends on which principles you're interested in applying but generally speaking, you'll most likely have to rethink each assignment's grade breakdown and the way that's displayed/communicated to students. [Victoria's data structures course](../cases/data-structs-comp) utilized an automated grader with a competency-based grading scheme.
 ```
 
 ```{dropdown} When resubmissions are allowed, how much feedback fo you provide?
 
-When grading manually, focusing on big issues that they could work on rather than nitty gritty is beneficial. When using and automated grader, having distinct test cases separated by themes can be helpful (see [Victoria's data structures course](../cases/data-structs) as an example).
+When grading manually, focusing on big issues that they could work on rather than nitty gritty is beneficial. When using and automated grader, having distinct test cases separated by themes can be helpful.
 ```
 
 ```{dropdown} Does allowing resubmissions or flexible deadlines mean more grading? Are there a lot of last minute submissions?

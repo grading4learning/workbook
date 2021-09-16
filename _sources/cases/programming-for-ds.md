@@ -34,10 +34,13 @@ deeper than was covered in class, guided by the level 3 achievement definitions.
 
 ## Equity and learning focus
 
-The grade was not based on averaging performance across activities; the basis
-was the material only.  Students had at least 2 chances (and mostly many more)
+- the grade was not based on averaging performance across activities; the basis
+was the material only.  
+- Students had at least 2 chances (and mostly many more)
 to earn every single achievement.  A student could require 2 attempts at every
-single achievement and still earn an A. Students could skip assignments as they
-deemed necessary for their regular schedule.  Because the grade was cumulative,
-students focused on their learning; gradin was that they had to demonstrate
+single achievement and still earn an A.
+- Students could skip assignments as they
+deemed necessary for their regular schedule.
+-  grading was that they had to demonstrate
 understanding: both applying material and communicating well enough.
+-  Because the grade was cumulative, students focused on their learning trusting that getting things eventually would be worth it

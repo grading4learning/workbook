@@ -46,7 +46,7 @@ To get started, we recommend you:
     - Based on the previous question, what will your next version look like? 
     - What do you need to learn more about?
 - Keep learning ([check out our resources](../resources/resources) and [contribute to the workbook](https://github.com/grading4learning/workbook/compare)).
-- Join our new and growing [community on Slack](https://join.slack.com/t/cle-community/shared_invite/zt-w11ht1dt-jz_aiHKGPlPPYoftnuxXcw)
+- Join our new and growing [community on Slack](https://join.slack.com/t/cle-community/shared_invite/zt-150edhpn4-xUY_kSBrfnbIc2DmjHYqwQ)
     - Haven't used Slack? [Check out the start guide](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide?utm_source=hppromo&utm_medium=promo).
     - Slack join link not working? Slack invite links expire every 30 days and we may have forgotten to update it so please [let us know](https://github.com/grading4learning/workbook/issues)!
 
